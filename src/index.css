@@ -83,13 +83,40 @@ h3 + p{
   background:white;
   color:#5d6821;
 }
-.errorMain{
+.errorMain, .aboutMain{
   padding-top: 100px;
   display:flex;
   justify-content: center;
   align-items:center;
 
 }
+.cardAbout{
+  max-width: 600px;
+  width:100%;
+  height: 500px;
+  display: flex;
+  padding: 0 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:40px;
+  background-color: rgba(117, 137, 134, .35);
+  border-radius: 20px;
+  border: 1px solid rgba(117, 137, 134, .25);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+  backdrop-filter: blur(15px);
+}
+.titleAbout{
+  border-bottom: 2px solid rgb(117,137,134);
+}
+.titleAbout + p{
+  line-height : 1.5;
+}
+p.pAbout>a{
+  color: black;
+  font-weight: bolder;
+}
+
 
 
 
