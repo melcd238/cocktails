@@ -4,6 +4,7 @@ import classes from '../SearhForm/SearchForm.module.css'
 
 
 const SearchForm = () => {
+  const { setInputsearch } = useGlobalContext();
   const searchValue = React.useRef('');
 
   const handleSubmit = (e)=>{

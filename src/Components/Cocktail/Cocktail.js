@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import classes from './Cocktail.module.css'
 
 const Cocktail = () => {
   return (

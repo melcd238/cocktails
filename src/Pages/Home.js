@@ -10,7 +10,7 @@ const Home = () => {
       <section className='sectionSearch'>
          <SearchForm/>
       </section>
-      <CocktailsList/>
+         <CocktailsList/>
     </main>
   )
 }

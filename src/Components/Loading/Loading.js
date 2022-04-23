@@ -5,7 +5,7 @@ const Loading = () => {
  return (
      
   <div className={classes.loader}>
-      <p style={{color:"white", fontSize:"60px"}}>COCKTAILS</p>
+      <p style={{color:"white", fontSize:"2rem"}}>LOADING</p>
       <div className={classes.loaderBar}></div>
   </div>
  )

@@ -1,5 +1,22 @@
 .cocktailsListContainer{
-    border : 1px solid white;
     width: 80%;
     margin: 20px auto;
+}
+p{
+    color:#758986;
+    font-size:2rem;
+    font-weight:bolder; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0.1em 0.1em 0.2em black ;
+}
+span{
+    display:inline-block;
+}
+p>span{
+    color:#758986;
+    font-weight:900;
+    font-size:2.2rem;
 }
