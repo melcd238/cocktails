@@ -3,9 +3,17 @@ import { Link } from 'react-router-dom'
 
 const Error = () => {
   return (
-    <div>
-      <h2>error page</h2>
-    </div>
+    <main className='errorMain'>
+      <div className='errorContainer'>
+           <h3>404</h3>
+           <p>Oups....</p>
+           <Link to='/'>
+             <button className='btn-error'>Come back Home</button>
+           </Link>
+      </div>
+    </main>
+
+
   )
 }
 
