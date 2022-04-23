@@ -1,12 +1,15 @@
 import React from 'react'
-import CocktailList from '../Components/CocktailsList'
-import SearchForm from '../Components/SearchForm'
+import CocktailsList from '../Components/CocktailsList'
+import SearchForm from '../Components/SearhForm/SearchForm'
 
 const Home = () => {
   return (
-    <div>
-      <h2>home page</h2>
-    </div>
+    <main>
+      <section className='sectionSearch'>
+         <SearchForm/>
+      </section>
+      <CocktailsList/>
+    </main>
   )
 }
 

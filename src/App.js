@@ -6,7 +6,7 @@ import About from './Pages/About'
 import SingleCocktail from './Pages/SingleCocktail'
 import Error from './Pages/Error'
 // import components
-import Navbar from './Components/Navbar'
+import Navbar from './Components/Navbar/Navbar'
 
 
 
