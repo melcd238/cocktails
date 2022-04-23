@@ -1,6 +1,6 @@
 import React from 'react'
 import Cocktail from '../Cocktail'
-import Loading from '../Loading'
+import Loading from '../Loading/Loading'
 import { useGlobalContext } from '../../Context'
 import classes from './CocktailsList.module.css'
 

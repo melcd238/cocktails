@@ -1,5 +1,5 @@
 import React from 'react'
-import Loading from '../Components/Loading'
+import Loading from '../Components/Loading/Loading'
 import { useParams, Link } from 'react-router-dom'
 
 const url = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='

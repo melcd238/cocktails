@@ -11,16 +11,16 @@
     backdrop-filter: blur(6px);
     background: linear-gradient(
       120deg,
-      rgba(117, 137, 134, .45),
+      rgba(245, 217, 126,.35),
       rgba(255, 255, 255, .65), 70%, 
-      rgba(117, 137, 134, .45)
+      rgba(245, 217, 126,.35)
     );
 }
 label{
   display: block;
   margin-bottom: 1.25rem;
   font-weight:900;
-  color:#272A28;
+  color:white;
 }
 input{
     width: 100%;
