@@ -12,9 +12,8 @@ const SearchForm = () => {
   }
 
   return (
-    <div className={classes.searchFormContainer}>
+    <div>
       <form onSubmit={handleSubmit}>
-         <label htmlFor='name' >Find your favorite cocktail...</label>
          <input type="text" name='name' id='name' ref={searchValue} placeholder="search..."></input>
       </form>
      

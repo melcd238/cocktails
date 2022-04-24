@@ -1,21 +1,9 @@
-.searchFormContainer{
-    max-width: 460px;
-    height: 80px;
-    padding:5px 60px;
-    margin-top: 1.4rem;
-    border-radius: 5px;
-    box-shadow:
-    inset 4px 4px 5px 0 rgba(255, 255, 255, .25),
-    inset -4px -4px 5px 0 rgba(0, 0, 0, 0.125),
-     -8px -8px 5px -5px rgba(255,255,255,0.25) inset,
-    0 0 10px 1px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(6px);
-}
+
 label{
   display: block;
   margin-bottom: 0.6rem;
   font-weight:900;
-  color:#758986;
+  color:white;
 }
 input{
     width: 100%;
@@ -23,5 +11,8 @@ input{
     font-size: 1.2rem;
     padding: 0.5rem;
     border-radius: 10px;
-    color:#758986;
+    color:#8d0203;
+}
+::placeholder {
+  color:#8d0203;
 }

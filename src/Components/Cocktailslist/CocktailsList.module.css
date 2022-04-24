@@ -2,6 +2,15 @@
     width: 80%;
     margin: 20px auto;
 }
+.cocktailsListContainerFlex{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap :wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
 p{
     color:#758986;
     font-size:2rem;

@@ -24,8 +24,12 @@ const CocktailList = () => {
   } 
   if(cocktailList.length >= 1){
     return(
-      <section className={classes.cocktailsListContainer}>
-      <p style={{color:"white"}}> Cocktails list </p>
+      <section className={classes.cocktailsListContainerFlex}>
+      {cocktailList.map((item)=>{
+        return (
+          <Cocktail key={item.id} {...item}/>
+        )
+      })}
       </section>
     )
 

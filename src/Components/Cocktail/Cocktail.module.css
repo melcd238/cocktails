@@ -1,0 +1,31 @@
+.cardCocktail{
+    max-width: 320px;
+    width:100%;
+    height: 400px;
+    background-color: rgba(255, 250, 250, .40);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 250, 250, .25);
+    box-shadow:
+    inset 4px 4px 5px 0 rgba(255, 250, 250, .25),
+    inset -4px -4px 5px 0 rgba(0, 0, 0, 0.125),
+    0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+}
+.cardCocktail h2{
+    color: white;
+    text-align: center;
+}
+.cardImageContainer{
+    width:100%;
+    height:162px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    display:flex;
+    justify-content:center;
+    align-item:center;
+}
+.cardImageContainer img{
+     width:160px;
+    height:160px;
+}

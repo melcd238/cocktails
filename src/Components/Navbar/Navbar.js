@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import classes from '../Navbar/Nabar.module.css'
+import SearchForm from '../../Components/SearhForm/SearchForm'
 
 
 const Navbar = () => {
@@ -30,6 +31,7 @@ const Navbar = () => {
          </ul>
   
         </div>
+        <SearchForm/>
       </header>
     ) 
   } else {

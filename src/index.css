@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:'Kalam', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    background-image: url('./Assets/pexels-arina-krasnikova.jpg');
+    background-image: url('./Assets/pexels-aram.jpg');
     color:black;
     background-color:white; 
     background-attachment:fixed;
@@ -40,6 +41,11 @@ main{
 *:after {
   box-sizing: inherit;
 }
+h1{
+  color: white;
+  text-align:center;
+  margin-top:20px;
+}
 .sectionSearch{
   display: flex;
   justify-content : center;
@@ -62,10 +68,10 @@ main{
 }
 h3{
   font-size: 10rem;
-  color: #5d6821;
+  color: #8d0203;
 }
 h3 + p{
-  color: #5d6821;
+  color: #8d0203;
   font-size: 4rem;
 }
 .btn-error{
@@ -76,12 +82,12 @@ h3 + p{
   display: inline-block;
   cursor: pointer;
   font-size: 0.8rem;
-  background:#5d6821;
+  background:#8d0203;
   border-radius: 5px;
 }
 .btn-error:hover{
   background:white;
-  color:#5d6821;
+  color:#8d0203;
 }
 .errorMain, .aboutMain{
   padding-top: 100px;
@@ -107,14 +113,29 @@ h3 + p{
   backdrop-filter: blur(15px);
 }
 .titleAbout{
-  border-bottom: 2px solid rgb(117,137,134);
+  font-size: 1.6rem;
+  color:white;
+  border-bottom: 2px solid #8d0203;
 }
 .titleAbout + p{
   line-height : 1.5;
+  font-size:1.4rem;
+  color:white;
 }
-p.pAbout>a{
-  color: black;
+.pAbout>a{
+  color:#8d0203;
   font-weight: bolder;
+}
+.borderTitle{
+  width:60px;
+  height:4px;
+  background-color:#8d0203;
+}
+.titleContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
 }
 
 
