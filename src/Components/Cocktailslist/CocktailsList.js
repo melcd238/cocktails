@@ -18,7 +18,7 @@ const CocktailList = () => {
    if( cocktailList.length < 1){
     return (
       <section className={classes.cocktailsListContainer}>
-      <p> <span>Oups...</span> No cocktail matched with your search </p>
+      <p style={{color:"#8d0203"}}> <span>Oups...</span> No cocktail matched with your search </p>
       </section>
     )
   } 
