@@ -10,6 +10,7 @@ const Navbar = () => {
  
   let activeStyle = {
     textDecoration: "underline",
+    textDecorationColor:'#8d0203',
   };
 
   if(location.pathname === '/' || location.pathname === '/about'){
@@ -37,7 +38,11 @@ const Navbar = () => {
   } else {
     return(
       <header>
-        <h1 className={classes.logo}>COCKTAILS</h1>
+         <div className={classes.logoContainer}>
+          <Link to='/' className={classes.logo}>
+             COCKTAILS
+          </Link>
+        </div>
       </header>
     )
   }

@@ -7,12 +7,23 @@ const Cocktail = ({id,name, category, info, glass, instruction, image, ingredien
   return (
     
       <div className={classes.cardCocktail}>
-        <Link to='/'>
+        
          <div className={classes.cardImageContainer}>
          <img src={image} alt={name}></img>
        </div>
+
         <h2>{name}</h2>
-        </Link>
+        <div className={classes.cardContent}>
+          <p> {category}</p>
+          <p>{info}</p>
+         </div>
+
+         <div className={classes.btnContainer}>
+         <Link to={`singleCocktail/${id}`}>
+         <button className={classes.btnMore}>More details</button>
+         </Link>
+         </div>
+         
     </div>
     
 
