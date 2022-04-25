@@ -18,7 +18,7 @@ const AppProvider = ({ children }) => {
   const [id, setId]= useState(null)
   
   // Fetch data every time we put something in the input
-  const FetchData = async()=>{
+  const FetchData = useCallback(async()=>{
     setLoading(true)
     try {
       const response = await axios(`${url}${inputSearch}`)
@@ -45,14 +45,14 @@ const AppProvider = ({ children }) => {
       console.log(error)
       setLoading(false)
     }
-  }
+  },[inputSearch])
 
 useEffect(()=>{
    FetchData()
 },[inputSearch])
    
    // fetch data for one Cocktail 
-const fetchOneCocktail = async ()=>{
+const fetchOneCocktail = useCallback(async ()=>{
   setLoading(true)
   try {
     const response = await axios(`${urlOneCocktail}${id}`)
@@ -98,7 +98,7 @@ const fetchOneCocktail = async ()=>{
      setLoading(false)
   }
   
-}
+},[id])
 
 useEffect(()=>{
    fetchOneCocktail()
