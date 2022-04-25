@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import classes from './Cocktail.module.css'
 
-const Cocktail = ({id,name, category, info, glass, instruction, image, ingredients, measures}) => {
+const Cocktail = ({id,name, category, info, image}) => {
   
   return (
     

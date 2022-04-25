@@ -89,7 +89,7 @@ h3 + p{
   background:white;
   color:#8d0203;
 }
-.errorMain, .aboutMain{
+.errorMain, .aboutMain, .singleCocktailMain{
   padding-top: 100px;
   display:flex;
   justify-content: center;
@@ -137,6 +137,56 @@ h3 + p{
   justify-content:center;
   align-items:center;
 }
+.singleCocktailContainer{
+  max-width: 600px;
+  width:100%;
+  min-height: 500px;
+  color:white;
+  gap:20px;
+  display: flex;
+  padding: 0 2rem;
+  flex-direction: column;
+  background-color: rgba(117, 137, 134, .35);
+  border-radius: 20px;
+  border: 1px solid rgba(117, 137, 134, .25);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+  backdrop-filter: blur(15px);
+}
+.singleCardContainer{
+  display:flex;
+  margin-top:20px;
+  justify-content: center;
+  align-items: center;
+}
+.singleCardImg{
+  width:160px;
+  height: 140px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: white;
+}
+.singleCardImg img{
+  width:100%;
+  height:100%;
+}
+.singleCardContent{
+  width:60%;
+}
+.singleCardContent p{
+  color:white;
+  font-size:1.2rem;
+}
+.instructions p{
+  color: white;
+  font-size:1.2rem;
+}
+.instructions h3{
+  font-size:1.2rem;
+}
+.ingredientsMeasures h3{
+  font-size:1.2rem;
+}
+
 
 
 
