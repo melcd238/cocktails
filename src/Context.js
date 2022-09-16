@@ -12,7 +12,7 @@ const AppContext = React.createContext()
 const AppProvider = ({ children }) => {
   // State
   const [loading, setLoading] = useState(false);
-  const [inputSearch, setInputsearch] = useState('a');
+  const [inputSearch, setInputsearch] = useState('ad');
   const [cocktailList , setCocktailList] = useState([]);
   const [cocktail, setCocktail] = useState(null);
   const [id, setId]= useState(null)
